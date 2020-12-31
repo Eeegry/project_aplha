@@ -1,103 +1,33 @@
+
 body {
     background-color: F2F2F2;
     color: black;
+    font-family: "Roboto";
 }
 
-#login_image {
-    text-align: center;
-}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+} 
+
 h1 {
     text-align: center;
     font-family: Roboto;
     font-size: 36px;
+    font-weight: 700;
 }
 
-#email {
-    position: absolute;
+#login_email {
     background: #FFFFFF;
     border: 1px solid #1A4F8B;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
-    
-}
-    
-#email p {
-    font-family: Roboto;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 19px;
-    color: #1A4F8B;
-}
 
-#password {
-/* password */
-position: absolute;
-width: 343px;
-height: 50px;
-left: 16px;
-top: 438px;
-/* Rectangle Copy */
-position: absolute;
-left: 4.27%;
-right: 4.27%;
-top: 53.94%;
-bottom: 39.9%;
-background: #F1F1F1;
-border-radius: 5px;
-/* Lock icon */
-position: absolute;
-width: 25px;
-height: 25px;
-left: 28px;
-top: 450.5px;
-/* Background */
-position: absolute;
-left: 7.47%;
-right: 85.87%;
-top: 55.48%;
-bottom: 41.44%;
-background: #000000;
-/* Shape */
-position: absolute;
-left: 8.72%;
-right: 87.12%;
-top: 55.77%;
-bottom: 41.73%;
-background: #AEAEAE;
-/* Shape path */
-position: absolute;
-left: 8.72%;
-right: 87.12%;
-top: 55.77%;
-bottom: 41.73%;
-/* Shape path */
-position: absolute;
-left: 9.76%;
-right: 88.16%;
-top: 55.96%;
-bottom: 43.27%;
-/* Shape path */
-position: absolute;
-left: 9.13%;
-right: 87.53%;
-top: 56.92%;
-bottom: 41.92%;
-/* password */
-position: absolute;
-left: 16.53%;
-right: 10.4%;
-top: 55.85%;
-bottom: 41.81%;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
-color: #B0B0B0;
-}
-
-#contact_icon {
-    margin:0%
-    padding:0;
+    position: absolute;
+    width: 343px;
+    height: 50px;
+    left: 16px;
+    top: 346px;
 }
