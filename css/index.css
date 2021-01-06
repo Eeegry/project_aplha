@@ -184,3 +184,101 @@ h2 {
     height: 40px;
     color: #FFFFFF;
 }
+
+#forgot_password_image {
+    position: absolute;
+width: 212px;
+height: 212px;
+left: 75px;
+top: 78px;
+}
+
+h3 {
+    position: absolute;
+left: 4.27%;
+right: 4.27%;
+top: 39.04%;
+bottom: 55.79%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #000000;
+}
+
+#forgot_email {
+    position: absolute;
+left: 4.27%;
+right: 4.27%;
+top: 48.77%;
+bottom: 45.07%;
+
+background: #FFFFFF;
+border: 1px solid #1A4F8B;
+border-radius: 5px;
+
+
+}
+
+#forgot_email p {
+    position: absolute;
+left: 16.53%;
+right: 10.4%;
+top: 30.31%;
+bottom: 47.35%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #1A4F8B;
+}
+
+#forgot_button {
+    position: absolute;
+left: 4.27%;
+right: 4.27%;
+top: 59.91%;
+bottom: 33.93%;
+}
+
+#forgot_button button {
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+height: 50px;
+width: 343px;
+background: #1A4F8B;
+border-radius: 8px;
+border: 0px;
+}
+
+#already_have {
+    position: absolute;
+left: 4.27%;
+right: 4.27%;
+top: 91.01%;
+bottom: 6.65%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+
+color: #B0B0B0;
+}
+
+a {
+    color: #1A4F8B;
+    text-decoration: none;
+}
