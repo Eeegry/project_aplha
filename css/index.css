@@ -171,12 +171,11 @@ h2 {
 /* Forgot password page*/
 
 
-#forgot_password_image {
-  
+.forgot_image {
+margin-right: auto;
+margin-left: auto;
 width: 212px;
 height: 212px;
-left: 75px;
-top: 78px;
 }
 
 h3 {
@@ -197,25 +196,19 @@ color: #000000;
 }
 
 #forgot_email {
-  
-left: 4.27%;
-right: 4.27%;
-top: 48.77%;
-bottom: 45.07%;
-
+margin-top:10%;
+width: 90%;
 background: #FFFFFF;
 border: 1px solid #1A4F8B;
 border-radius: 5px;
-
-
+height: 50px;
+margin-right: auto;
+margin-left: auto;
 }
 
 #forgot_email p {
-  
-left: 16.53%;
-right: 10.4%;
-top: 30.31%;
-bottom: 47.35%;
+margin-left: 13%;
+margin-top:-6%;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
@@ -227,11 +220,7 @@ color: #1A4F8B;
 
 
 #already_have {
- 
-left: 4.27%;
-right: 4.27%;
-top: 91.01%;
-bottom: 6.65%;
+margin-top:90%;
 font-family: Roboto;
 font-style: normal;
 font-weight: 400;
