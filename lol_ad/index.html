@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>Know Your Lane!</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+    <div class="main">
+       <nav>
+           <div class="logo">
+               <img src="images/logo.png">
+           </div>
+           <div class="nav-links">
+               <ul>
+                   <li><a href="#">HOME</a></li>
+                   <li><a href="#">NEWS</a></li>
+                   <li><a href="image_slider/index.html">CHAMPIONS</a></li>
+                   <li><a href="#">UNIVERSE</a></li>
+               </ul>
+           </div>
+       </nav> 
+       <div class="information">
+           <div class="overlay"></div>
+           <img src="images/kennen.png" class="mobile">
+           <div id="circle">
+               <div class="feature one">
+                   <img src="images/adc.png">
+                   <div>
+                       <h1>Bottom Lane</h1>
+                       <p>High damage.Squishy.</p>
+                   </div>
+               </div>
+               <div class="feature two">
+                   <img src="images/jg.png">
+                   <div>
+                        <h1>Jungle</h1>
+                        <p>Stalk and prey for enemies.</p>
+                    </div>
+               </div>
+               <div class="feature three">
+                    <img src="images/mid.png">
+                    <div>
+                        <h1>Middle Lane</h1>
+                        <p>Masters of dueling.</p>
+                    </div>
+               </div>
+               <div class="feature four">
+                    <img src="images/sup.png">
+                    <div>
+                        <h1>Support</h1>
+                        <p>Defend your team.</p>
+                    </div>
+               </div>
+           </div>
+       </div>
+
+       <div class="controls">
+            <img src="images/arrow.png" id="upBtn">
+            <h3>Lanes</h3>
+            <img src="images/arrow.png" id="downBtn">
+       </div>
+
+
+
+    </div>
+
+
+    <script>
+        var circle = document.getElementById("circle");
+        var upBtn = document.getElementById("upBtn");
+        var downBtn = document.getElementById("downBtn");
+
+        var rotateValue = circle.style.transform;
+        var rotateSum;
+
+
+        upBtn.onclick = function()
+        {
+            rotateSum = rotateValue + "rotate(-90deg)";
+            circle.style.transform = rotateSum;
+            rotateValue = rotateSum;
+        }
+        downBtn.onclick = function()
+        {
+            rotateSum = rotateValue + "rotate(90deg)";
+            circle.style.transform = rotateSum;
+            rotateValue = rotateSum;
+        }
+    </script>
+</body> 
+</html>
