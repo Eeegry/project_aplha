@@ -1,6 +1,8 @@
-
+/* Попробуй вынести все основные цвета и размеры шрифтов в переменные вверху файла и пользоваться ими. */
 body {
+    /* Почитай про написание HEX-цветов в CSS */
     background-color: F2F2F2;
+    /* Лучше юзать #000 */
     color: black;
     font-family: "Roboto";
     margin-left: auto;
@@ -36,8 +38,10 @@ h1 {
 }
 
 #login_image {
+    /* Откуда такие точные цифры (почитай про magic numbers in CSS) */
     width: 212px;
     height: 212px;
+    /* top/left/right/bottom не работают без position: relative/absolute/fixed/sticky */
     left: 76px;
     top: 33px;
 }
@@ -170,7 +174,7 @@ h2 {
 
 /* Forgot password page*/
 
-
+/* Отступы */
 .forgot_image {
 margin-right: auto;
 margin-left: auto;

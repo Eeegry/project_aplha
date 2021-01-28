@@ -3,9 +3,13 @@
     padding: 0;
     font-family: sans-serif;
     font-weight: bold;
+    /* box-sizing: border-box; */
 }
 
+/* Попробуй вынести все основные цвета и размеры шрифтов в переменные вверху файла и пользоваться ими. */
+
 .container {
+    /* Контейнер обычно это элемент с ограниченной шириной, margin: 0 auto; и padding: 0 npx; */
     width: 100%;
     height: 100%;
     background-color: #061211;
@@ -25,15 +29,18 @@
 
 .logo img {
     width: 200px; 
+    /* Если это здесь есть, ты что-то делаешь не так */
     margin-top:-7px;
     margin-right: 48px;
 }
 
 .active {
+    /* Лучше описать что это для ссылок. Для этого, соответственно, ссылкам нужно добавить классы. */
     color: #FFBD00 !important;
 }
 
 .signup-btn {
+    /* Можно обойтись и без абсолюта */
     top: 40px;
     right: 80px;
     position: absolute;
@@ -52,6 +59,7 @@
 }
 
 .banner {
+    /* Дичь */
     width: 80%;
     height: 70%;
     top:25%;
@@ -96,6 +104,8 @@
 }
 
 .play-btn-inner {
+    /* Попробуй отцентровать иконку в круглой кнопке. 
+    https://stackoverflow.com/questions/33609020/how-to-center-align-ion-icon-inside-button/33609070 */
     height: 50px;
     width: 50px;
     border: 1px solid transparent;
@@ -120,6 +130,7 @@ small {
 }
 
 .quick-links {
+    /* Убирай абсолют */
     left: 0;
     bottom: 0;
     position: absolute;

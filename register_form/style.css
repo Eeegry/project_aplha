@@ -1,3 +1,4 @@
+/* Кроме body нельзя обращаться по тэгам, должны быть классы */
 body {
     background-color: #673AB7;
     font-family: sans-serif;
@@ -55,3 +56,5 @@ form img {
     width: 100px;
     margin-top: -100px;
 }
+
+/* На маленьких экранах посмотри размеры формы */

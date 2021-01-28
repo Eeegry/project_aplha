@@ -1,27 +1,35 @@
 <html>
     <head>
+        <!-- Метаданных в шапке не хватает (посмотри в alpha или просто нажимай в редакторе ! и Tab по очереди, VSCode тебе создаст
+            чистый красивый html файлик) -->
         <title>Total War Warhammer 2 Web App</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     </head>
 <body>
+    <!-- Заюзай HTML5 тэги -->
     <div class="container">
        <div class="menu">
            <ul>
+               <!-- Если это навигация, должны быть ссылки -->
                <li class="logo"><img src="download.png"></li>
                <li class="active">Home</li>
                <li>News</li>
                <li>Shop</li>
                <li>Contact</li>
+               <!-- Кнопку лучше отделить от основной навигации -->
                <li><a hreg="#" class="signup-btn"><span>Sign Up for Beta!</span></a></li>
            </ul>
        </div> 
        <div class="banner">
+           <!-- Если есть классы app-text, app-picture, то корневой класс должен быть app. Или наоборот - banner-text, banner-picture -->
            <div class="app-text">
                <h1>The new Total War: Warhammer 2 DLC Is Out Now!</h1>
+               <!-- Ограничь ширину элемента вместо br. Зачем br перед текстом? -->
                <p><br>Play as Moonclaw in his quest to satisfy his<br> unquenchable thirst for ruin by consuming all of Nagarrond. <br><br>Or join Rakarth the Beastlord as he purifies the sacred lands<br> of the druchii and defend your Queen from the hordes<br> of beastmen.</p>
                 <div class="play-btn">
                     <div class="play-btn-inner"><i class="fa fa-play" aria-hidden="true"></i></div>
+                    <!-- Сделай ссылкой -->
                     <small><b>LEARN MORE</b></small>
                 </div>
             </div>
@@ -31,6 +39,7 @@
        </div>
        <div class="quick-links">
             <ul>
+                <!-- Заюзай text-transform вместо хардкода -->
                 <li><i class="fa fa-share-alt"></i><p>SHARE TO</p></li>
                 <li><i class="fa fa-audio-description"></i><p>RECENT NEWS</p></li>
                 <li><i class="fa fa-cog"></i><p>SETTINGS</p></li>
